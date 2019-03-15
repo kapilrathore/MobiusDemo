@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32CC04FF9A78F3AD6A1697AE /* Pods_MobiusDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D95EB4504EEF5763F131EF /* Pods_MobiusDemo.framework */; };
 		8F39BCD522148128009613C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39BCD422148128009613C8 /* AppDelegate.swift */; };
 		8F39BCD722148128009613C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39BCD622148128009613C8 /* ViewController.swift */; };
 		8F39BCDA22148128009613C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F39BCD822148128009613C8 /* Main.storyboard */; };
 		8F39BCDC2214812A009613C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F39BCDB2214812A009613C8 /* Assets.xcassets */; };
 		8F39BCDF2214812A009613C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F39BCDD2214812A009613C8 /* LaunchScreen.storyboard */; };
 		8F39BCEA2214812A009613C8 /* MobiusDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39BCE92214812A009613C8 /* MobiusDemoTests.swift */; };
+		8F39BCF522148312009613C8 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39BCF422148312009613C8 /* State.swift */; };
+		8F39BCF722148335009613C8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39BCF622148335009613C8 /* Model.swift */; };
+		8F39BCF922148361009613C8 /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39BCF822148361009613C8 /* Effect.swift */; };
+		8F39BCFB22148368009613C8 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39BCFA22148368009613C8 /* Event.swift */; };
+		8F39BCFD22148383009613C8 /* Next.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39BCFC22148383009613C8 /* Next.swift */; };
+		8F39BCFF221483A6009613C8 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39BCFE221483A6009613C8 /* LoginService.swift */; };
+		8FA8D35F22159545006CF85C /* MobiusLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA8D35E22159545006CF85C /* MobiusLoop.swift */; };
+		9EED0EE9D4390C36740FC0BD /* Pods_MobiusDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7492C39381676FD8E6C074 /* Pods_MobiusDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1540A3AEFE71ED7C2C98F4A5 /* Pods-MobiusDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobiusDemoTests/Pods-MobiusDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2905057966E4B19FCEEFEDEE /* Pods-MobiusDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiusDemoTests/Pods-MobiusDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B7492C39381676FD8E6C074 /* Pods_MobiusDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiusDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F7B4934A6A85EA85CDE7D5 /* Pods-MobiusDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobiusDemo/Pods-MobiusDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8F39BCD122148128009613C8 /* MobiusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F39BCD422148128009613C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F39BCD622148128009613C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +49,15 @@
 		8F39BCE52214812A009613C8 /* MobiusDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiusDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F39BCE92214812A009613C8 /* MobiusDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusDemoTests.swift; sourceTree = "<group>"; };
 		8F39BCEB2214812A009613C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F39BCF422148312009613C8 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		8F39BCF622148335009613C8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8F39BCF822148361009613C8 /* Effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effect.swift; sourceTree = "<group>"; };
+		8F39BCFA22148368009613C8 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		8F39BCFC22148383009613C8 /* Next.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Next.swift; sourceTree = "<group>"; };
+		8F39BCFE221483A6009613C8 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		8FA8D35E22159545006CF85C /* MobiusLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusLoop.swift; sourceTree = "<group>"; };
+		EC44E590FA503ED9C94C7B1F /* Pods-MobiusDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiusDemo/Pods-MobiusDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F3D95EB4504EEF5763F131EF /* Pods_MobiusDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiusDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CC04FF9A78F3AD6A1697AE /* Pods_MobiusDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +73,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EED0EE9D4390C36740FC0BD /* Pods_MobiusDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A0DF33A9AC8C4A41F8959D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83F7B4934A6A85EA85CDE7D5 /* Pods-MobiusDemo.debug.xcconfig */,
+				EC44E590FA503ED9C94C7B1F /* Pods-MobiusDemo.release.xcconfig */,
+				1540A3AEFE71ED7C2C98F4A5 /* Pods-MobiusDemoTests.debug.xcconfig */,
+				2905057966E4B19FCEEFEDEE /* Pods-MobiusDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8F39BCC822148128009613C8 = {
 			isa = PBXGroup;
 			children = (
 				8F39BCD322148128009613C8 /* MobiusDemo */,
 				8F39BCE82214812A009613C8 /* MobiusDemoTests */,
 				8F39BCD222148128009613C8 /* Products */,
+				0A0DF33A9AC8C4A41F8959D2 /* Pods */,
+				C6A22D6591BFE8D2BDB29D37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +116,13 @@
 			children = (
 				8F39BCD422148128009613C8 /* AppDelegate.swift */,
 				8F39BCD622148128009613C8 /* ViewController.swift */,
+				8F39BCF422148312009613C8 /* State.swift */,
+				8F39BCF622148335009613C8 /* Model.swift */,
+				8FA8D35E22159545006CF85C /* MobiusLoop.swift */,
+				8F39BCF822148361009613C8 /* Effect.swift */,
+				8F39BCFC22148383009613C8 /* Next.swift */,
+				8F39BCFE221483A6009613C8 /* LoginService.swift */,
+				8F39BCFA22148368009613C8 /* Event.swift */,
 				8F39BCD822148128009613C8 /* Main.storyboard */,
 				8F39BCDB2214812A009613C8 /* Assets.xcassets */,
 				8F39BCDD2214812A009613C8 /* LaunchScreen.storyboard */,
@@ -96,6 +140,15 @@
 			path = MobiusDemoTests;
 			sourceTree = "<group>";
 		};
+		C6A22D6591BFE8D2BDB29D37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3D95EB4504EEF5763F131EF /* Pods_MobiusDemo.framework */,
+				3B7492C39381676FD8E6C074 /* Pods_MobiusDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F39BCEE2214812A009613C8 /* Build configuration list for PBXNativeTarget "MobiusDemo" */;
 			buildPhases = (
+				AF6D75CEBAC0CC3325181A9B /* [CP] Check Pods Manifest.lock */,
 				8F39BCCD22148128009613C8 /* Sources */,
 				8F39BCCE22148128009613C8 /* Frameworks */,
 				8F39BCCF22148128009613C8 /* Resources */,
+				4F9AE908FFFB31B64C51A687 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F39BCF12214812A009613C8 /* Build configuration list for PBXNativeTarget "MobiusDemoTests" */;
 			buildPhases = (
+				D103638AF2229150ABE5691A /* [CP] Check Pods Manifest.lock */,
 				8F39BCE12214812A009613C8 /* Sources */,
 				8F39BCE22214812A009613C8 /* Frameworks */,
 				8F39BCE32214812A009613C8 /* Resources */,
@@ -192,13 +248,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F9AE908FFFB31B64C51A687 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobiusDemo/Pods-MobiusDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiusDemo/Pods-MobiusDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF6D75CEBAC0CC3325181A9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiusDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D103638AF2229150ABE5691A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiusDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F39BCCD22148128009613C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F39BCFD22148383009613C8 /* Next.swift in Sources */,
+				8F39BCF922148361009613C8 /* Effect.swift in Sources */,
 				8F39BCD722148128009613C8 /* ViewController.swift in Sources */,
 				8F39BCD522148128009613C8 /* AppDelegate.swift in Sources */,
+				8F39BCF522148312009613C8 /* State.swift in Sources */,
+				8F39BCFB22148368009613C8 /* Event.swift in Sources */,
+				8F39BCF722148335009613C8 /* Model.swift in Sources */,
+				8FA8D35F22159545006CF85C /* MobiusLoop.swift in Sources */,
+				8F39BCFF221483A6009613C8 /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +494,7 @@
 		};
 		8F39BCEF2214812A009613C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F7B4934A6A85EA85CDE7D5 /* Pods-MobiusDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +512,7 @@
 		};
 		8F39BCF02214812A009613C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC44E590FA503ED9C94C7B1F /* Pods-MobiusDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +530,7 @@
 		};
 		8F39BCF22214812A009613C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1540A3AEFE71ED7C2C98F4A5 /* Pods-MobiusDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +551,7 @@
 		};
 		8F39BCF32214812A009613C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2905057966E4B19FCEEFEDEE /* Pods-MobiusDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
